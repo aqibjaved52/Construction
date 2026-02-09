@@ -1,0 +1,13 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Garage Conversion ADUs -->
+<path d="M6 18L20 8L34 18" stroke="#A6A182" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<rect x="8" y="18" width="24" height="16" stroke="#A6A182" stroke-width="1.8" fill="none"/>
+<rect x="8" y="18" width="24" height="16" fill="#A6A182" fill-opacity="0.06"/>
+<!-- Garage door -->
+<rect x="12" y="24" width="16" height="10" rx="1" stroke="#A6A182" stroke-width="1.5" fill="none"/>
+<line x1="12" y1="27" x2="28" y2="27" stroke="#A6A182" stroke-width="1"/>
+<line x1="12" y1="30" x2="28" y2="30" stroke="#A6A182" stroke-width="1"/>
+<!-- Arrow indicating conversion -->
+<path d="M34 26L37 26" stroke="#A6A182" stroke-width="1.5" stroke-linecap="round"/>
+<path d="M36 24L38 26L36 28" stroke="#A6A182" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

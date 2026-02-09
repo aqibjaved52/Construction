@@ -1,0 +1,17 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Construction Materials - Bricks/Materials -->
+<rect x="4" y="24" width="14" height="6" rx="1" stroke="#A6A182" stroke-width="1.5" fill="none"/>
+<rect x="4" y="24" width="14" height="6" rx="1" fill="#A6A182" fill-opacity="0.08"/>
+<line x1="11" y1="24" x2="11" y2="30" stroke="#A6A182" stroke-width="1"/>
+<rect x="10" y="18" width="14" height="6" rx="1" stroke="#A6A182" stroke-width="1.5" fill="none"/>
+<rect x="10" y="18" width="14" height="6" rx="1" fill="#A6A182" fill-opacity="0.08"/>
+<line x1="17" y1="18" x2="17" y2="24" stroke="#A6A182" stroke-width="1"/>
+<rect x="16" y="12" width="14" height="6" rx="1" stroke="#A6A182" stroke-width="1.5" fill="none"/>
+<rect x="16" y="12" width="14" height="6" rx="1" fill="#A6A182" fill-opacity="0.08"/>
+<line x1="23" y1="12" x2="23" y2="18" stroke="#A6A182" stroke-width="1"/>
+<!-- Trowel -->
+<path d="M32 6L36 10L33 13L29 9L32 6Z" fill="#A6A182" fill-opacity="0.15" stroke="#A6A182" stroke-width="1.2" stroke-linejoin="round"/>
+<line x1="29" y1="9" x2="26" y2="12" stroke="#A6A182" stroke-width="1.5" stroke-linecap="round"/>
+<!-- Ground -->
+<line x1="2" y1="32" x2="32" y2="32" stroke="#A6A182" stroke-width="1.2"/>
+</svg>

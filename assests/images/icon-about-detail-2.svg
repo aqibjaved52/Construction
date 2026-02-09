@@ -1,0 +1,9 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Handshake - Full Transparency / On-Time -->
+<path d="M4 18L10 12H16L20 16L24 12H30L36 18" stroke="#A6A182" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M4 18L12 26L16 22L20 26L24 22L28 26L36 18" stroke="#A6A182" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M12 26L16 30L20 26" stroke="#A6A182" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<path d="M20 26L24 30L28 26" stroke="#A6A182" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+<circle cx="8" cy="10" r="2" fill="#A6A182" fill-opacity="0.15" stroke="#A6A182" stroke-width="1.2"/>
+<circle cx="32" cy="10" r="2" fill="#A6A182" fill-opacity="0.15" stroke="#A6A182" stroke-width="1.2"/>
+</svg>

@@ -238,7 +238,7 @@ body{
     right: 0;
     width: 18px;
     height: 14px;
-    background-image: url('../images/arrow-white.svg');
+    background-image: url('../assests/images/arrow-white.svg');
     background-repeat: no-repeat;
     background-position: center right;
     background-size: cover;
@@ -265,7 +265,7 @@ body{
 }
 
 .btn-default.btn-highlighted:after{
-	background-image: url('../images/arrow-dark.svg');
+	background-image: url('../assests/images/arrow-dark.svg');
 }
 
 .btn-default.btn-highlighted:hover:after{
@@ -274,7 +274,7 @@ body{
 
 .readmore-btn{
     display: inline-block;
-	background-image: url('../images/arrow-accent.svg');
+	background-image: url('../assests/images/arrow-accent.svg');
     background-repeat: no-repeat;
     background-position: right 3px center;
     background-size: 18px auto;
@@ -471,6 +471,11 @@ header.main-header .header-sticky.active{
 .navbar-brand{
 	padding: 0;
 	margin: 0;
+}
+
+.navbar-brand img{
+	max-width: 180px;
+	height: auto;
 }
 
 .main-menu .nav-menu-wrapper{
@@ -731,7 +736,7 @@ header.main-header .header-sticky.active{
 
 .hero{
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background: url('../assests/images/hero-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -776,7 +781,7 @@ header.main-header .header-sticky.active{
 
 .hero.hero-slider-layout .hero-slide{
 	position: relative;
-	background: url('../images/hero-bg.jpg');
+	background: url('../assests/images/hero-bg.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -784,7 +789,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero.hero-slider-layout .hero-slide.slide-2{
-	background: url('../images/hero-bg-2.jpg');
+	background: url('../assests/images/hero-bg-2.jpg');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -1705,7 +1710,7 @@ header.main-header .header-sticky.active{
 	color: var(--dark-divider-color);
 }
 
-.happy-customer-images{
+.happy-customer-assests/images{
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -1888,7 +1893,7 @@ header.main-header .header-sticky.active{
 
 .our-testimonial{
 	position: relative;
-	background: url('../images/testimonials-bg.jpg');
+	background: url('../assests/images/testimonial-index-page.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2261,13 +2266,65 @@ header.main-header .header-sticky.active{
 	margin: 0;
 }
 
+.footer-legal-links{
+	list-style: none;
+	padding: 0;
+	margin: 10px 0 0;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px 20px;
+	justify-content: flex-end;
+}
+
+.footer-legal-links li a{
+	font-size: 14px;
+	color: rgba(255, 255, 255, 0.7);
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+
+.footer-legal-links li a:hover{
+	color: #fff;
+}
+
+.page-single-content{
+	padding: 80px 0;
+}
+
+.single-content-wrapper h2{
+	font-size: 24px;
+	margin: 30px 0 15px;
+	font-weight: 700;
+}
+
+.single-content-wrapper h3{
+	font-size: 20px;
+	margin: 20px 0 10px;
+	font-weight: 600;
+}
+
+.single-content-wrapper p{
+	margin-bottom: 15px;
+	line-height: 1.8;
+}
+
+.single-content-wrapper ul{
+	margin-bottom: 20px;
+	padding-left: 20px;
+}
+
+.single-content-wrapper ul li{
+	margin-bottom: 8px;
+	line-height: 1.7;
+}
+
 /************************************/
 /***	 15. About Us Page Css    ***/
 /************************************/
 
 .page-header{
     position: relative;
-	background: url('../images/page-header-bg.jpg');
+	background: url('../assests/images/backgorund-image.webp');
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -2464,8 +2521,15 @@ header.main-header .header-sticky.active{
 .team-item{
     position: relative;
     border-radius: 30px;
+    overflow: hidden;
     height: calc(100% - 30px);
     margin-bottom: 30px;
+}
+
+.team-image{
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
 }
 
 .team-image a{
@@ -2477,6 +2541,7 @@ header.main-header .header-sticky.active{
 .team-image figure{
 	display: block;
 	border-radius: 28px;
+	overflow: hidden;
 }
 
 .team-image figure::before{
@@ -2485,10 +2550,11 @@ header.main-header .header-sticky.active{
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 100%);
 	width: 100%;
-	height: 50%;
+	height: 60%;
     z-index: 1;
+    border-radius: 0 0 28px 28px;
 }
 
 .team-image img{
@@ -2508,14 +2574,8 @@ header.main-header .header-sticky.active{
     bottom: 30px;
     left: 30px;
     right: 30px;
-    transform: translateY(40px);
     text-align: center;
-    transition: all 0.4s ease-in-out;
     z-index: 1;
-}
-
-.team-item:hover .team-body{
-    transform: translateY(0);
 }
 
 .team-content h3{
@@ -2523,6 +2583,11 @@ header.main-header .header-sticky.active{
 	font-weight: 700;
     text-transform: capitalize;
 	color: var(--primary-color);
+    margin-bottom: 0;
+    transition: margin-bottom 0.3s ease-in-out;
+}
+
+.team-item:hover .team-content h3{
     margin-bottom: 5px;
 }
 
@@ -2533,6 +2598,17 @@ header.main-header .header-sticky.active{
 .team-content p{
     text-transform: capitalize;
     margin-bottom: 0;
+    color: var(--text-color);
+    font-size: 14px;
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease-in-out, max-height 0.3s ease-in-out;
+}
+
+.team-item:hover .team-content p{
+    opacity: 1;
+    max-height: 40px;
 }
 
 .team-social-list{
@@ -2774,7 +2850,7 @@ header.main-header .header-sticky.active{
     position: absolute;
     top: 0;
     right: 0;
-    background: url(../images/arrow-accent.svg) no-repeat;
+    background: url(../assests/images/arrow-accent.svg) no-repeat;
     background-position: right center;
     background-size: cover;
     width: 18px;
@@ -4174,7 +4250,7 @@ header.main-header .header-sticky.active{
 }
 
 .post-entry blockquote{
-	background: url('../images/icon-blockquote.svg'), var(--accent-color);
+	background: url('../assests/images/icon-blockquote.svg'), var(--accent-color);
 	background-repeat: no-repeat;
 	background-position: 35px 30px;
     background-size: 50px;
@@ -4774,6 +4850,10 @@ header.main-header .header-sticky.active{
 
 	.navbar{
 		padding: 20px 0;
+	}
+
+	.navbar-brand img{
+		max-width: 150px;
 	}
 
 	.main-menu ul li.highlighted-menu{
@@ -5503,6 +5583,9 @@ header.main-header .header-sticky.active{
 		width: 70%;
 	}
 
+	.project-sub-categories{gap:8px;margin-bottom:20px;padding-bottom:15px;}
+	.sub-cat-pill{font-size:11px;padding:6px 14px;letter-spacing:0.5px;}
+
 	.page-blog{
 		padding: 50px 0;
 	}
@@ -6033,6 +6116,14 @@ header.main-header .header-sticky.active{
 		text-align: center;
 	}
 
+	.footer-legal-links{
+		justify-content: center;
+	}
+
+	.page-single-content{
+		padding: 50px 0;
+	}
+
 	.page-header-box h1{
 		font-size: 30px;
 	}
@@ -6555,3 +6646,11 @@ header.main-header .header-sticky.active{
 		padding: 14px 20px;
 	}
 }
+
+/* Project Type Badge, Sub-Categories & Sidebar Description */
+.project-type-badge{display:block;width:fit-content;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--secondary-color);background:var(--accent-color);padding:5px 14px;border-radius:3px;margin-bottom:10px;}
+.sidebar-type-description{font-size:15px;line-height:1.7em;margin-top:15px;color:var(--primary-color);opacity:0.85;}
+.project-sub-categories{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px;padding-bottom:20px;border-bottom:1px solid rgba(166,161,130,0.3);}
+.sub-cat-pill{display:inline-block;font-size:13px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--primary-color);border:1px solid var(--accent-color);padding:8px 20px;border-radius:30px;cursor:default;transition:all 0.3s ease;}
+.sub-cat-pill.active,.sub-cat-pill:hover{background:var(--accent-color);color:var(--secondary-color);}
+.food-menu-item .menu-item-content p{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;line-height:1.6em;}

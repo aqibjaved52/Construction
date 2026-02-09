@@ -1,0 +1,6 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Map Pin with Star - Dallas Local Experts -->
+<path d="M20 38S32 26 32 16C32 9.37 26.63 4 20 4C13.37 4 8 9.37 8 16C8 26 20 38 20 38Z" stroke="#A6A182" stroke-width="1.8" fill="none"/>
+<path d="M20 38S30 27 30 16C30 10.48 25.52 6 20 6C14.48 6 10 10.48 10 16C10 27 20 38 20 38Z" fill="#A6A182" fill-opacity="0.06"/>
+<path d="M20 11L21.8 14.6L25.8 15.2L22.9 18L23.6 22L20 20.1L16.4 22L17.1 18L14.2 15.2L18.2 14.6L20 11Z" fill="#A6A182" stroke="#A6A182" stroke-width="0.8" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Full ADU Construction - Building/Hard Hat -->
+<!-- Hard hat -->
+<path d="M12 16C12 11.58 15.58 8 20 8C24.42 8 28 11.58 28 16" stroke="#A6A182" stroke-width="1.8" fill="none"/>
+<path d="M10 18H30V20C30 21.1 29.1 22 28 22H12C10.9 22 10 21.1 10 20V18Z" fill="#A6A182" fill-opacity="0.15" stroke="#A6A182" stroke-width="1.5"/>
+<line x1="20" y1="8" x2="20" y2="18" stroke="#A6A182" stroke-width="1.2"/>
+<!-- Building below -->
+<rect x="13" y="25" width="14" height="11" stroke="#A6A182" stroke-width="1.5" fill="none"/>
+<rect x="13" y="25" width="14" height="11" fill="#A6A182" fill-opacity="0.06"/>
+<rect x="16" y="28" width="3" height="3" stroke="#A6A182" stroke-width="1" fill="#A6A182" fill-opacity="0.12"/>
+<rect x="22" y="28" width="3" height="3" stroke="#A6A182" stroke-width="1" fill="#A6A182" fill-opacity="0.12"/>
+<rect x="18" y="32" width="4" height="4" stroke="#A6A182" stroke-width="1" fill="none"/>
+</svg>

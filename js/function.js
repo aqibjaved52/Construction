@@ -9,6 +9,11 @@
 		$(".preloader").fadeOut(600);
 	});
 
+	/* Fallback: hide preloader after 3 seconds even if resources fail to load */
+	setTimeout(function(){
+		$(".preloader").fadeOut(600);
+	}, 3000);
+
 	/* Sticky Header */	
 	if($('.active-sticky-header').length){
 		$window.on('resize', function(){
@@ -298,5 +303,14 @@
 			fixedContentPos: true
 		});
 	}
+
+	/* Dynamic Current Year */
+	$('.currentYear').text(new Date().getFullYear());
+
+	/* Dynamic Current Date for Blog */
+	var now = new Date();
+	var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	var currentDateStr = months[now.getMonth()] + ' ' + now.getDate() + ', ' + now.getFullYear();
+	$('.dynamic-date').text(currentDateStr);
 		
 })(jQuery);

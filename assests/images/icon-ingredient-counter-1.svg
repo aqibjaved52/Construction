@@ -1,0 +1,9 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<!-- Projects Completed - Building/Checkmark -->
+<rect x="6" y="8" width="12" height="16" rx="1" stroke="#A6A182" stroke-width="1.5" fill="none"/>
+<rect x="6" y="8" width="12" height="16" rx="1" fill="#A6A182" fill-opacity="0.06"/>
+<path d="M12 8V4H18V12" stroke="#A6A182" stroke-width="1.5" stroke-linejoin="round" fill="none"/>
+<rect x="9" y="12" width="6" height="3" stroke="#A6A182" stroke-width="1" fill="#A6A182" fill-opacity="0.12"/>
+<rect x="9" y="18" width="3" height="4" stroke="#A6A182" stroke-width="1" fill="none"/>
+<path d="M19 16L22 19L27 12" stroke="#A6A182" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>
